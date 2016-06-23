@@ -21,16 +21,33 @@ img {
     margin-right: 20px;          
 }
 
-.endline {
+.work_images {
+             height: 400px;
+             width: 533px;
+             display: inline-block;
+             padding-right: 40px;
+             padding-left: 40px;
+ }
+
+.endlines {
         width: 100%;
         height: 3px;
         background-color: #0000ff;
         display: block;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin: 20px 0px 20px 0px;
         border: 1px solid black;     
         border-radius: 5px; 
+        clear: both;
 }
+
+#personal-pic {
+              float: right;
+              width: 150px;
+              height: 150px;
+              margin-top: -75px;
+              margin-bottom: 10px;
+ }
+ 
 
 
 
