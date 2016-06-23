@@ -11,18 +11,20 @@ a {text-decoration:none;
 
 body {
      font-family: Beleren, Times, serif;
-     background-color: #b3ffff;
+     color: white;
+     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Messier51_sRGB.jpg/1280px-Messier51_sRGB.jpg")
  }
  
 ul a {text-decoration: none;}
 
-a {color: green; }
+a {color: #80ffff; }
  
-img {
+.schools {
     height: 80px;
     width: 160px;
     display: inline-block;
-    margin-right: 20px;          
+    margin-right: 20px;
+    background-color: white;          
 }
 
 .work_images {
