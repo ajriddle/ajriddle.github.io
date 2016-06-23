@@ -9,16 +9,34 @@
             <h1>Andrew Riddle</h1>
             <img id="personal-pic" src="personal_pic.png" />
             <p>Email: <a href="mailto:starman21789@gmail.com" onMouseOver="window.status='Send email'; return true;" onMouseOut="window.status=' '; return true;">starman21789@gmail.com</a>
-            <div class="endlines"></div>
+			<p>Location: Austin, TX</p>
+			<div class="separators"></div>
+			
+			<h3>About Me</h3>
+			<p>Hello! My name is Andrew Riddle. I'm a 27-year-old ex-astronomer who's looking to move into the computer softwar/programming sector. I'm originally from Rockford, IL (near Chicago), but I currently live in Austin, TX. I got my B.S. in astronomy from the University of Illinois at Urbana-Champaign before going to grad school at the University of Texas at Austin. While in grad school, I realized that professional astronomy just wasn't for me, but that computer programming is right up my alley. I have extensive experience in Python from my time in graduate school and am teaching myself a variety of other useful languages such as Java, MySQL, Ruby, and HTML/CSS (e.g. the content of my page!). I've also dabbled in various other languages in my research such as C++, awk, IDL, IRAF, and FORTRAN.</p>
+
+			<h3>Interests</h3>
+			<ul>
+				<li><a href="http://magic.wizards.com/en/magic-gathering"><em>Magic: the Gathering</em></a>  TCG</li>
+				<li>Astronomy</li>
+				<li>Coding</li>
+				<li>Sci-Fi, especially Star Trek </li>
+				<li>TV/Movies/Books/Music</li>
+				<li>Tabletop Games (e.g. <a href="http://www.catan.com/">Settlers of Catan</a>, <a href="https://www.daysofwonder.com/tickettoride/en/">Ticket to Ride</a>, <a href="https://www.fantasyflightgames.com/en/products/talisman/">Talisman</a>, <a href="https://boardgamegeek.com/boardgame/36218/dominion">Dominion</a>)
+				<li>Sports: Green Bay Packers, St. Louis Cardinals, Chicago Bulls, Chicago Blackhawks</li>
+			</ul>
+			
+            <div class="separators"></div>
                        
-            <h3>Some results from my work at UT:</h3>
+            <h3>Astronomy Research</h3>
+			<p>The main project I worked on as a grad student was the study of low-mass (<0.8 times the Sun's mass) eclipsing binaries, star systems with two stars that pass in front of (eclipse) each other as viewed from Earth. The observed properties of these low mass stars don't quite line up with what we expect from stellar models. My project was to attempt to find the cause of these discrepancies and correct for it to learn something about stellar physics. One of the main sources of my data was the <a href="http://www2.keck.hawaii.edu/koa/public/koa.php">Keck Observatory Archive</a>, where I obtained hudnreds of unpublished stellar spectra of binary star systems. I made use of my own Python implementation of the <a href="http://adsabs.harvard.edu/abs/1994ApJ...420..806Z">TODCOR algorithm</a> (a two-dimensional cross-correlation) to derive radial velocities for each star. I then wrote a MCMC orbit fitter in Python to solve for the best-fit orbital solution based on the derived radial velocities. Sample results for one system, MG1-2062466, can be seen below. Follow the link to my Github page at the bottom of this site to see the code for the MCMC orbit fitter and the TODCOR algorithm.</p>
             <div align="center">
                  <img class="work_images" src="MG1-2062466.png" />
                  <img class="work_images" src="MG1-2062466_triangle.png" />
             </div>
             <p><em>Left:</em> Statistical fit from MCMC to orbital data from the eclipsing binary star system MG1-2062466. <em>Right:</em> Triangle plot showing the 7 parameter histograms from the MCMC analysis. 
             
-            <div class="endlines"></div>
+            <div class="separators"></div>
             
             <p><a href="https://github.com/ajriddle">Check out my Github page.</a></p>
             
