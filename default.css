@@ -55,6 +55,12 @@ a {color: #80ffff; }
               margin-bottom: 10px;
  }
  
+ #Credit {
+         display: inline-block;
+         float: right;
+         margin-top: -5px;
+  }
+ 
 
 
 
