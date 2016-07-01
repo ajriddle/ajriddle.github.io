@@ -9,3 +9,15 @@ body {
 li {padding-bottom: 14px; }
 
 a{color: #80ffff}
+
+div {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border-top: 50px;
+    border-radius: 5%;
+    }
+    
+.heading {
+         font-size: 10px;
+ }
