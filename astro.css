@@ -1,0 +1,46 @@
+@font-face {font-family: Beleren; src: url('beleren-bold-webfont.ttf');}
+
+body {
+     font-family: Beleren, Times, serif;
+     color: white;
+     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Messier51_sRGB.jpg/1280px-Messier51_sRGB.jpg");
+     margin: 7px;
+ }
+ 
+ul a {text-decoration: none;}
+
+a {color: #80ffff;}
+
+.work_images {
+             height: 8%;
+             width: 45%;
+             display: inline-block;
+             padding-right: 1%;
+             padding-left: 1%;
+ }
+
+.separators {
+        width: 100%;
+        height: 3px;
+        background-color: #0000ff;
+        display: block;
+        margin: 10px 0px 10px 0px;
+        border: 1px solid black;     
+        border-radius: 5px; 
+        clear: both;
+}
+ 
+#Credit {
+         display: inline-block;
+         float: right;
+         margin-top: -5px;
+  }
+  
+h1 {
+        text-align: center;
+        font-family: Beleren;
+ }
+
+ .header {
+        text-align: center;
+ }

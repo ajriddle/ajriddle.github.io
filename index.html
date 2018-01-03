@@ -6,40 +6,48 @@
       </head>
       
       <body>
-            <h1>Andrew Riddle</h1>
-            <img id="personal-pic" src="FullSizeRender.jpg" />
-            <p>Email: <a href="mailto:ajriddle89@gmail.com" onMouseOver="window.status='Send email'; return true;" onMouseOut="window.status=' '; return true;">ajriddle89@gmail.com</a>
-			<p>Location: Austin, TX</p>
-			<div class="separators"></div>
+      	<h1>Andrew Riddle</h1>
+            
+        <p class="header">Email: <a href="mailto:ajriddle89@gmail.com" onMouseOver="window.status='Send email'; return true;" onMouseOut="window.status=' '; return true;">ajriddle89@gmail.com</a>
+		<p class="header">Location: Austin, TX</p>
+		<img id="personal-pic" src="GA_Headshots_055.jpg" />
+		<div class="separators"></div>
 			
+		<div id="about_me">
 			<h3>About Me</h3>
 			<p>I am a data scientist with a natural curiosity about how the world works and won't stop working on a problem until I've figured it out. Hard work is vital, but being able to relax and have fun is just as important. My experience as an astronomy researcher gave me the tools to perform complex data analysis and modeling, but just as importantly, the ability to communicate these ideas to people in and outside of the field. I seek out projects with a tangible human impact, even if it's just making a routine task a little easier..</p>
+		</div>
+		<div class="separators"></div>
 
 			<h3>Interests</h3>
 			<ul>
+				<li>Data science</li>
 				<li><a href="http://magic.wizards.com/en/magic-gathering"><em>Magic: the Gathering</em></a>  TCG</li>
 				<li>Astronomy</li>
 				<li>Coding</li>
-				<li>Sci-Fi, especially Star Trek </li>
+				<li>Sci-Fi/Fantasy, especially Star Trek </li>
 				<li>TV/Movies/Books/Music</li>
 				<li>Tabletop Games (e.g. <a href="http://www.catan.com/">Settlers of Catan</a>, <a href="https://www.daysofwonder.com/tickettoride/en/">Ticket to Ride</a>, <a href="https://www.fantasyflightgames.com/en/products/talisman/">Talisman</a>, <a href="https://boardgamegeek.com/boardgame/36218/dominion">Dominion</a>)
 				<li>Sports: Green Bay Packers, St. Louis Cardinals, Chicago Bulls, Chicago Blackhawks</li>
 			</ul>
 			
             <div class="separators"></div>
-                       
-            <h3>Astronomy Research</h3>
-			<p>The main project I worked on as a grad student was the study of low-mass (<0.8 times the Sun's mass) eclipsing binaries, star systems with two stars that pass in front of (eclipse) each other as viewed from Earth. The observed properties of these low mass stars don't quite line up with what we expect from stellar models. My project was to attempt to find the cause of these discrepancies and correct for it to learn something about stellar physics. One of the main sources of my data was the <a href="http://www2.keck.hawaii.edu/koa/public/koa.php">Keck Observatory Archive</a>, where I obtained hundreds of unpublished stellar spectra of binary star systems. I made use of my own Python implementation of the <a href="http://adsabs.harvard.edu/abs/1994ApJ...420..806Z">TODCOR algorithm</a> (a two-dimensional cross-correlation) to derive radial velocities for each star. I then wrote a MCMC orbit fitter in Python to solve for the best-fit orbital solution based on the derived radial velocities. Sample results for one system, MG1-2062466, can be seen below. Follow the link to my Github page at the bottom of this site to see the code for the MCMC orbit fitter and the TODCOR algorithm.</p>
-            <div align="center">
-                 <img class="work_images" src="MG1-2062466.png" />
-                 <img class="work_images" src="MG1-2062466_triangle.png" />
-            </div>
-            <p><em>Left:</em> Statistical fit from MCMC to orbital data from the eclipsing binary star system MG1-2062466. <em>Right:</em> Triangle plot showing the 7 parameter histograms from the MCMC analysis. 
-            
-            <div class="separators"></div>
 			
+			<h3>Projects</h3>
+			<p><a href="https://github.com/ajriddle/General-Assembly-DSI/tree/master/Capstone">Board Game Analytics</a> - Predicting the popularity (rating) and market price of board games using data from the <a href="https://boardgamegeek.com/">Board Game Geek</a> API.</p>
+
+			<p><a href="https://github.com/ajriddle/General-Assembly-DSI/tree/master/March-Madness">March Madness</a> - Kaggle competition where you predict the probability of each team in the NCAA Men's basketball tournament beating each other team.</p>
+
+			<p><a href="https://github.com/ajriddle/General-Assembly-DSI/tree/master/AMES-Housing">Ames-Housing</a> - Kaggle competition to predict the sale prices of houses in Ames, Iowa.</p>
+
+			<p><a href="astro.html">Astronomy</a> - My graduate research on eclipsing binary stars.</p>	
+
+			<p><a href="https://github.com/ajriddle/Magic-Files">Magic Workstation</a> - Implement new expansion sets of the <em>Magic: the Gathering</em> TCG into the <a href="http://www.magicworkstation.com/">Magic Workstation</a> software.</p>	
+					
+			<div class="separators"></div>
             <div style="display: inline-block; margin-right: 40px;">
-            	<p><a href="https://github.com/ajriddle/Work-Files">Check out my work on Github.</a></p>           
+            	<p>Github: <a href="https://github.com/ajriddle/">ajriddle</a></p>
+				<p>LinkedIn: <a href="https://www.linkedin.com/in/andrew-riddle/">andrew-riddle</a></p>            
             	<p><a href="resume.pdf">Resume</a></p>
 			</div>
             
@@ -47,7 +55,11 @@
 
             <a href="http://utexas.edu"><img class="schools" src="http://static1.squarespace.com/static/5529b786e4b0042c0279be82/t/552a118be4b0da214d682b5f/1428820364497/" /></a>
 
-		<p id="Credit">Image credit: NASA/ESA</p>                                                                                               
+			<a href="https://datasciencedojo.com/bootcamp/"><img class="schools" src="https://s3.amazonaws.com/codementor_content/2016-Jul/data_science_dojo.png"/></a>
+
+			<a href="https://generalassemb.ly/education/data-science-immersive"><img class="schools" src="https://www.ap.org/events/ga/assets/logo/logo-ga.jpg"/></a>
+
+		<!--<p id="Credit">Image credit: brownstonerg.com</p>-->                                                                                               
       
       
       </body>

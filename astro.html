@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Astronomy Research</title>    
+    <link type="text/css" rel="stylesheet" href="astro.css" />
+  </head>
+  <body>
+  		            <h1>Astronomy Research</h1>
+			<p>The main project I worked on as a grad student was the study of low-mass (<0.8 times the Sun's mass) eclipsing binaries, star systems with two stars that pass in front of (eclipse) each other as viewed from Earth. The observed properties of these low mass stars don't quite line up with what we expect from stellar models. My project was to attempt to find the cause of these discrepancies and correct for it to learn something about stellar physics.</p> 
+
+			<p>One of the main sources of my data was the <a href="http://www2.keck.hawaii.edu/koa/public/koa.php">Keck Observatory Archive</a>, where I obtained hundreds of unpublished stellar spectra of binary star systems. I made use of my own Python implementation of the <a href="http://adsabs.harvard.edu/abs/1994ApJ...420..806Z">TODCOR algorithm</a> (a two-dimensional cross-correlation) to derive radial velocities for each star. I then wrote a MCMC orbit fitter in Python to solve for the best-fit orbital solution based on the derived radial velocities. Sample results for one system, MG1-2062466, can be seen below. Some results for other systems, the code I wrote for the analysis, as well as some code to perform other tasks that were part of my graduate research can be found in the Astronomy repo on my GitHub page <a href="https://github.com/ajriddle/Astronomy">here</a>.</p>
+            <div align="center">
+                 <img class="work_images" src="MG1-2062466.png" />
+                 <img class="work_images" src="MG1-2062466_triangle.png" />
+            </div>
+            <p><em>Left:</em> Statistical fit from MCMC analysis to orbital data from the eclipsing binary star system MG1-2062466. <em>Right:</em> Triangle plot showing the 7 parameter histograms from the MCMC analysis. 
+  </body>
+</html>
