@@ -4,18 +4,66 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>Astronomy Research</title>    
-    <link type="text/css" rel="stylesheet" href="astro.css" />
+    <title>Projects</title>    
+    <link type="text/css" rel="stylesheet" href="projects.css" />
   </head>
   <body>
-  		            <h1>Astronomy Research</h1>
-			<p>The main project I worked on as a grad student was the study of low-mass (<0.8 times the Sun's mass) eclipsing binaries, star systems with two stars that pass in front of (eclipse) each other as viewed from Earth. The observed properties of these low mass stars don't quite line up with what we expect from stellar models. My project was to attempt to find the cause of these discrepancies and correct for it to learn something about stellar physics.</p> 
+        <h1><font size="+6">Andrew Riddle</font></h1>
+		<h3>Data Scientist</h3>
+		
+		<div style="text-align:center;margin-bottom:4%;">
+		<a href="https://ajriddle.github.io/" style="margin-right:40px; display:inline-block;">Home</a>
+		<a href="https://ajriddle.github.io/projects" style="margin-right:40px; color:#ffb366; display:inline-block;">Projects</a>
+		<a href="https://ajriddle.github.io/about" style="margin-right:40px; display:inline-block;">About Me</a>
+		<!--<a href="https://ajriddle.github.io/viz" style="margin-right:40px; display:inline-block;">Visualizations</a>-->
+		</div>
+  
+  		<h1>Projects</h1>
+		<div style="margin-left:20%; margin-right:20%">
+			<h2>The Science of Gaming</h2>
+			
+			<img class="work_images" src="board_game_pic.jpg" />
+			<p>When designing new games, what should designers focus on to maximize the sales of their games, either through making them more fun to play or selling them at a higher price point?</p>
+			<p>What makes one game more fun to play/popular than another?</p>
+			<p>I analyzed data on thousands of board games to try to predict the popularity (rating) and market price of a game using data from the <a href="https://boardgamegeek.com/">Board Game Geek</a> API.</p>
+			<p>You can check out the code I used and the results at the project repo located <a href="https://github.com/ajriddle/General-Assembly-DSI/tree/master/Capstone">here</a>.
 
-			<p>One of the main sources of my data was the <a href="http://www2.keck.hawaii.edu/koa/public/koa.php">Keck Observatory Archive</a>, where I obtained hundreds of unpublished stellar spectra of binary star systems. I made use of my own Python implementation of the <a href="http://adsabs.harvard.edu/abs/1994ApJ...420..806Z">TODCOR algorithm</a> (a two-dimensional cross-correlation) to derive radial velocities for each star. I then wrote a MCMC orbit fitter in Python to solve for the best-fit orbital solution based on the derived radial velocities. Sample results for one system, MG1-2062466, can be seen below. Some results for other systems, the code I wrote for the analysis, as well as some code to perform other tasks that were part of my graduate research can be found in the Astronomy repo on my GitHub page <a href="https://github.com/ajriddle/Astronomy">here</a>.</p>
+			<div class="separators"></div>
+		
+			<h2>March Machine Learning Madness</h2>
+			<img class="work_images" src="MarchMadness.jpg" />
+			<p>Kaggle competition where you predict the probability of each team in the NCAA Men's basketball tournament beating each other team. More info can be found <a href="https://github.com/ajriddle/General-Assembly-DSI/tree/master/March-Madness">here</a>.</p>
+
+			<div class="separators"></div>
+
+			<h2>Ames Housing</h2>
+			<img class="work_images" src="ames.png" />
+			<p>Kaggle competition to predict the sale prices of houses in Ames, Iowa. As a secondary task, I predicted abnormal housing sales. The project repo can be found <a href="https://github.com/ajriddle/General-Assembly-DSI/tree/master/AMES-Housing">here</a></p>
+
+			<div class="separators"></div>
+
+			<h2>Eclipsing Binary Stars</h2>
+			<img class="work_images" src="eb.jpg" />
+			<p>The main project I worked on as a grad student was the study of low-mass (<0.8 times the Sun's mass) eclipsing binaries, star systems with two stars that pass in front of (eclipse) each other as viewed from Earth. The observed properties of these low mass stars don't quite line up with what we expect from stellar models. My project was to attempt to find the cause of these discrepancies and correct for it, hopefully learning something about stellar physics in the process.</p> 
+
+			<p>One of the main sources of my data was the <a href="http://www2.keck.hawaii.edu/koa/public/koa.php">Keck Observatory Archive</a>, where I obtained hundreds of unpublished stellar spectra of binary star systems. I made use of my own Python implementation of the <a href="http://adsabs.harvard.edu/abs/1994ApJ...420..806Z">TODCOR algorithm</a> (a two-dimensional cross-correlation) to derive radial velocities for each star. I then wrote a MCMC orbit fitter in Python to solve for the best-fit orbital solution based on the derived radial velocities. Some results from this project, the code I wrote for the analysis, as well as some code to perform other tasks that were part of my graduate research can be found in the Astronomy repo on my GitHub page <a href="https://github.com/ajriddle/Astronomy">here</a>.</p>
+<!--
             <div align="center">
                  <img class="work_images" src="MG1-2062466.png" />
                  <img class="work_images" src="MG1-2062466_triangle.png" />
             </div>
             <p><em>Left:</em> Statistical fit from MCMC analysis to orbital data from the eclipsing binary star system MG1-2062466. <em>Right:</em> Triangle plot showing the 7 parameter histograms from the MCMC analysis. 
+-->
+		
+		<div class="separators"></div>
+
+		<h2>Magic Workstation</h2>
+		<img class="work_images" src="mws.jpg" />
+		<!--<img class="work_images" src="mtg.png" />-->
+		<p><a href="http://www.magicworkstation.com/">Magic Workstation</a> is a computer software that allows players to connect online and play each other in various trading card games (TCGs), most notably <em><a href="https://magic.wizards.com/en">Magic: the Gathering</a></em>. 
+
+		<p>Official support for this software stopped years ago, but many people still use it. Each time a new game expansion is released, it has to be manually added to the program by users. I have woked on streamlining this process as well as some other utilities for the program.</p>	
+
+	</div>
   </body>
 </html>
